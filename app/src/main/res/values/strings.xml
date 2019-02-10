@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="API_KEY">796b927b380049d993be08649035a63d</string>
+    <string name="health">Health</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="technology">Technology</string>
+    <string name="trending_news">Trending news</string>
+    <string name="category_news">Category News</string>
+    <string name="top_sources">Top Sources</string>
+    <string name="bbc_news">BBC-News</string>
+    <string name="cbc_news">CBC-News</string>
+    <string name="bloomberg">Bloomberg</string>
+    <string name="the_hindu">The Hindu</string>
+    <string name="alert_label">Alert!</string>
+    <string name="ok">Ok</string>
+    <string name="no_network_msg">Please check your network connectivity.</string>
+    <string name="something_went_wrong_msg">Something went wrong. Please try again!</string>
+</resources>

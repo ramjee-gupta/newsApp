@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/normal_text_size"
+    android:layout_marginLeft="@dimen/normal_text_size"
+    android:layout_marginRight="@dimen/normal_text_size"
+    android:elevation="@dimen/tiny_text_size"
+    app:cardCornerRadius="@dimen/tiny_text_size">
+
+    <RelativeLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tertiary_text_size">
+
+
+        <ImageView
+            android:id="@+id/newsThumbImage"
+            android:layout_width="@dimen/circle_imege_height_width"
+            android:layout_height="@dimen/circle_imege_height_width"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:id="@+id/newsHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="heading"
+            android:textSize="@dimen/primary_text_size"
+            android:textColor="#222222"
+            android:layout_toRightOf="@+id/newsThumbImage"
+            android:layout_marginLeft="@dimen/primary_text_size"/>
+        <TextView
+            android:id="@+id/newsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="heading"
+            android:textSize="@dimen/secondary_text_size"
+            android:textColor="#7b7b7b"
+            android:layout_toRightOf="@+id/newsThumbImage"
+            android:layout_below="@+id/newsHeading"
+            android:layout_marginTop="@dimen/tiny_text_size"
+            android:layout_marginLeft="@dimen/primary_text_size"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
